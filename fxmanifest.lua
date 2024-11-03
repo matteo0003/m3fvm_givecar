@@ -14,8 +14,11 @@ server_scripts {
         "server/server.lua",
 }
 
+files {
+        "locales/*.json",
+}
+
 dependencies {
         "oxmysql",
         "es_extended",
-        "esx_vehicleshop",
 }
