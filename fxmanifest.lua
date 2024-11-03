@@ -15,6 +15,7 @@ server_scripts {
 }
 
 dependencies {
+        "oxmysql",
         "es_extended",
         "esx_vehicleshop",
 }
