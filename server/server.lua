@@ -1,4 +1,4 @@
-ESX <const> = exports.es_extended:getSharedObject()
+ESX = exports.es_extended:getSharedObject()
 
 RegisterCommand("givecar", function(source, args)
         if args[1] == nil or args[2] == nil then return end

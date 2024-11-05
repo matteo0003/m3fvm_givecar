@@ -14,6 +14,10 @@ server_scripts {
         "server/server.lua",
 }
 
+shared_scripts {
+        "@ox_lib/init.lua",
+}
+
 files {
         "locales/*.json",
 }

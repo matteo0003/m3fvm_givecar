@@ -1,5 +1,5 @@
 lib.locale()
-ESX <const> = exports.es_extended:getSharedObject()
+ESX = exports.es_extended:getSharedObject()
 
 local ped <const> = PlayerPedId()
 
